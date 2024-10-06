@@ -1,20 +1,15 @@
-/* 1. Define custom font-family properties */
+/* Define custom font-family properties */
 :root {
     --font-family-base: "Helvetica Neue", Helvetica, Arial, sans-serif;
     --font-family-title: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-/* 2. Set body font-family */
+/* Set body font-family */
 body {
     font-family: var(--font-family-base);
 }
 
-/* 3. Set font-family for section headings */
+/* Set font-family for headings (h1 to h6) */
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-family-title);
-}
-
-/* Anchor styles, inherited from previous tasks */
-a {
-    color: var(--text-color);
 }
